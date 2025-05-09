@@ -18,7 +18,7 @@ class GradientSliverAppBar extends SliverAppBar {
     borderRadius,
     shape,
     backgroundColor,
-    brightness: Brightness.dark,
+    brightness = Brightness.dark,
     iconTheme,
     actionsIconTheme,
     toolbarTextStyle,

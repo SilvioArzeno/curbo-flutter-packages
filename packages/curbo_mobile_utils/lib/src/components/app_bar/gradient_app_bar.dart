@@ -16,7 +16,7 @@ class GradientAppBar extends AppBar {
     borderRadius,
     shape,
     backgroundColor,
-    brightness: Brightness.dark,
+    brightness = Brightness.dark,
     iconTheme = const IconThemeData(color: Colors.white),
     actionsIconTheme,
     toolbarTextStyle,

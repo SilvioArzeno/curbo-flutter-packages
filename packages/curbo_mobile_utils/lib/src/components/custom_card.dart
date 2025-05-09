@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 class CustomCard extends StatelessWidget {
   CustomCard({
     Key? key,
-    this.borderRadius: 8.0,
+    this.borderRadius = 8.0,
     this.border,
-    this.shadowColor: const Color(0xFF000000),
+    this.shadowColor = const Color(0xFF000000),
     this.color = Colors.white,
     this.height,
     this.width,
@@ -13,7 +13,7 @@ class CustomCard extends StatelessWidget {
     this.padding,
     this.child,
     this.onTap,
-    this.applyDisableColor: false,
+    this.applyDisableColor = false,
   }) : super(key: key);
 
   final double borderRadius;
