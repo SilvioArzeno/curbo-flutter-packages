@@ -2,7 +2,7 @@ import 'package:curbo_mobile_utils/curbo_mobile_utils.dart';
 import 'package:flutter/material.dart';
 
 class ButtonsPage extends StatelessWidget {
-  const ButtonsPage({Key key}) : super(key: key);
+  const ButtonsPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
