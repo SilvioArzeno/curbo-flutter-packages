@@ -1,6 +1,6 @@
 name: curbo_mobile_utils
 description: A proyect libs with components and utils for apps.
-version: 0.1.2
+version: 0.1.3
 homepage: https://www.curbo.do/
 
 # The following line prevents the package from being accidentally published to
